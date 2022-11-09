@@ -5,11 +5,19 @@
 body {
   background-color: #111;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
   overflow: hidden;
   margin: 0;
+}
+
+.title {
+  font-size: 3em;
+  text-align: center;
+  color: aliceblue;
+  text-transform: uppercase;
 }
 
 .container {
@@ -18,6 +26,10 @@ body {
   justify-content: center;
   align-items: center;
   max-width: 500px;
+  cursor: grab;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
 }
 
 .square {
@@ -28,6 +40,7 @@ body {
   box-shadow: 0 0 2px #000;
   transition: 1500ms ease;
   border-radius: 50%;
+  cursor: grab;
 }
 
 .square:hover {
