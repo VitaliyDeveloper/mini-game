@@ -19,10 +19,10 @@ body {
 .title {
   font-size: 3em;
   text-align: center;
+  text-transform: uppercase;
   color: antiquewhite;
   background: linear-gradient(45deg, red, blue);
   -webkit-background-clip: text;
-  text-transform: uppercase;
   -webkit-text-fill-color: transparent;
   }
 
